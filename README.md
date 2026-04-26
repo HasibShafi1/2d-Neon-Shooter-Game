@@ -29,15 +29,15 @@ The game follows an object-oriented architecture leveraging Pygame for context/i
 ### 1. Prerequisites
 Ensure you have Python 3.x installed on your system. 
 
-### 2. Setup Virtual Environment
-Run the included PowerShell script to automatically create a virtual environment and install dependencies:
+### 2. Install Dependencies
+Install the required libraries using pip:
 ```powershell
-.\setup.ps1
+pip install -r requirements.txt
 ```
 Dependencies include: `pygame`, `PyOpenGL`, `PyOpenGL_accelerate`, and `numpy`.
 
 ### 3. Play the Game
-Activate your virtual environment and run the main script:
+Run the main script:
 ```powershell
-.\.venv\Scripts\python main.py
+python main.py
 ```
